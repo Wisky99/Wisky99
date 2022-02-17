@@ -231,8 +231,7 @@ async def sms(ctx, phone, amount:int):
     
     
 @bot.command()
-async def help(ctx):
-	await ctx.channel.send(> +sms [เบอร์] [นาที] สูงสุด150นาที)
+async def help(ctx):(> +sms [เบอร์] [นาที] สูงสุด150นาที)
     
     
     
