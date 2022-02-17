@@ -174,18 +174,6 @@ def BBot(phone, amount):
         threading.submit(cang22,phone)
         threading.submit(cang23,phone)
         threading.submit(cang24,phone)
-        threading.submit(cang25,phone)
-        threading.submit(cang26,phone)
-        threading.submit(cang27,phone)
-        threading.submit(cang28,phone)
-        threading.submit(cang29,phone)
-        threading.submit(cang30,phone)
-        threading.submit(cang31,phone)
-        threading.submit(cang32,phone)
-        threading.submit(cang33,phone)
-        threading.submit(cang34,phone)
-        threading.submit(cang35,phone)
-        threading.submit(cang36,phone)
         
         
 
@@ -225,7 +213,7 @@ async def sms(ctx, phone, amount:int):
     
       BBot(phone,amount)
     else:
-    	await ctx.channel.send("กูบอกว่ายิงไม่เกิน150ไง ไอสัสพวกเหี้ย กูฆ่ามืงแน่")
+    	await ctx.channel.send("> กูบอกว่ายิงไม่เกิน150ไง ไอสัสพวกเหี้ย กูฆ่ามืงแน่")
     
 
 
@@ -244,7 +232,7 @@ async def sms(ctx, phone, amount:int):
     
 @bot.command()
 async def help(ctx):
-	emBed = discord.Embed(title="Bot BY: Hee",description="วิธิใช้",color=0xff4612)
+	emBed = discord.Embed(title="Bot BY: Wisky",description="วิธิใช้",color=0xff4612)
 	emBed.add_field(name="#_#",value="+sms [เบอร์] [จำนวน]")
 	
 	
